@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bright-site</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <span class="logo-c1">B</span><span class="logo-c2">r</span><span class="logo-c3">i</span><span class="logo-c4">g</span><span class="logo-c5">h</span><span class="logo-c6">t</span><span class="logo-c7">S</span><span class="logo-c8">i</span><span class="logo-c9">t</span><span class="logo-c10">e</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open navigation"><i class="fas fa-bars"></i></button>
+    <nav id="mainNav" class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode"><i class="fas fa-moon"></i></button>
+  </div>
+  <section class="hero reveal" id="home">
+    <div class="slider" id="heroSlider">
+      <button class="slider-arrow left" id="sliderPrev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+      <div class="slide active" style="background-image:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80');">
+        <div class="slide-content">
+          <h2>Welcome to BrightSite</h2>
+          <p>Experience a vibrant, modern, and smooth single-page website for your next project.</p>
+        </div>
+      </div>
+      <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=900&q=80');">
+        <div class="slide-content">
+          <h2>Stunning Visuals</h2>
+          <p>Enjoy beautiful backgrounds and smooth transitions that make your site stand out.</p>
+        </div>
+      </div>
+      <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=900&q=80');">
+        <div class="slide-content">
+          <h2>Fully Responsive</h2>
+          <p>Looks amazing on any device, from mobile to desktop, with a fluid layout.</p>
+        </div>
+      </div>
+      <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80');">
+        <div class="slide-content">
+          <h2>Easy to Customize</h2>
+          <p>BrightSite is ready to launch and easy to make your own. Just edit and go!</p>
+        </div>
+      </div>
+      <button class="slider-arrow right" id="sliderNext" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+      <div class="slider-controls" id="sliderDots"></div>
+    </div>
+  </section>
+  <!-- Feature Section Start -->
+  <section class="features-section reveal" id="features">
+    <h2 class="features-title">Features</h2>
+    <div class="features-grid">
+      <div class="feature-card card-orange reveal">
+        <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+        <div class="feature-title">Lightning Fast</div>
+        <div class="feature-desc">Optimized for speed and smooth transitions, your users will love the snappy experience.</div>
+      </div>
+      <div class="feature-card card-pink reveal">
+        <div class="feature-icon"><i class="fas fa-palette"></i></div>
+        <div class="feature-title">Vibrant Colors</div>
+        <div class="feature-desc">A bright, cheerful palette and beautiful gradients make your site stand out.</div>
+      </div>
+      <div class="feature-card card-teal reveal">
+        <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+        <div class="feature-title">Fully Responsive</div>
+        <div class="feature-desc">Looks amazing on any device, from mobile to desktop, with a fluid layout.</div>
+      </div>
+      <div class="feature-card card-purple reveal">
+        <div class="feature-icon"><i class="fas fa-magic"></i></div>
+        <div class="feature-title">Smooth Animations</div>
+        <div class="feature-desc">Subtle, modern animations and hover effects for a delightful user experience.</div>
+      </div>
+      <div class="feature-card card-blue reveal">
+        <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+        <div class="feature-title">Secure & Reliable</div>
+        <div class="feature-desc">Your data and experience are protected with best-in-class security and reliability.</div>
+      </div>
+      <div class="feature-card card-green reveal">
+        <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+        <div class="feature-title">Eco Friendly</div>
+        <div class="feature-desc">Optimized for low resource usage and a minimal carbon footprint.</div>
+      </div>
+      <div class="feature-card card-yellow reveal">
+        <div class="feature-icon"><i class="fas fa-sun"></i></div>
+        <div class="feature-title">Always Bright</div>
+        <div class="feature-desc">Enjoy a cheerful, uplifting design that keeps your site feeling positive and fresh.</div>
+      </div>
+      <div class="feature-card card-red reveal">
+        <div class="feature-icon"><i class="fas fa-heart"></i></div>
+        <div class="feature-title">Loved by Users</div>
+        <div class="feature-desc">Designed with care and attention to detail for a delightful user experience.</div>
+      </div>
+    </div>
+  </section>
+  <!-- Product Section Start -->
+  <section class="products-section reveal" id="products">
+    <h2 class="products-title">Our Products</h2>
+    <div class="products-grid">
+      <div class="product-card reveal">
+        <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80');"></div>
+        <div class="product-info">
+          <div class="product-title">Creative Lamp</div>
+          <div class="product-price">$49</div>
+          <div class="product-desc">A modern, energy-efficient lamp to brighten up your workspace with style.</div>
+          <button class="product-btn">Buy Now</button>
+        </div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80');"></div>
+        <div class="product-info">
+          <div class="product-title">Minimalist Chair</div>
+          <div class="product-price">$129</div>
+          <div class="product-desc">Ergonomic and stylish, this chair is perfect for any modern home or office.</div>
+          <button class="product-btn">Buy Now</button>
+        </div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80');"></div>
+        <div class="product-info">
+          <div class="product-title">Smart Watch</div>
+          <div class="product-price">$199</div>
+          <div class="product-desc">Stay connected and track your fitness with this sleek, feature-rich smartwatch.</div>
+          <button class="product-btn">Buy Now</button>
+        </div>
+      </div>
+      <div class="product-card reveal">
+        <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80');"></div>
+        <div class="product-info">
+          <div class="product-title">Wireless Headphones</div>
+          <div class="product-price">$89</div>
+          <div class="product-desc">Enjoy crystal-clear sound and comfort with these stylish wireless headphones.</div>
+          <button class="product-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section Start -->
+  <section class="about-section reveal" id="about">
+    <h2 class="about-title">About Us</h2>
+    <p class="about-content">We are a passionate team dedicated to creating beautiful, modern, and interactive web experiences. Our mission is to blend creativity with technology, delivering products that inspire and delight users worldwide.</p>
+    <div class="authors-slider-container">
+      <button class="authors-arrow left" aria-label="Previous author">&#8592;</button>
+      <div class="authors-slider">
+        <div class="author-card reveal">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Author 1" class="author-photo">
+          <div class="author-name">Alex Carter</div>
+        </div>
+        <div class="author-card reveal">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Author 2" class="author-photo">
+          <div class="author-name">Sophie Lee</div>
+        </div>
+        <div class="author-card reveal">
+          <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Author 3" class="author-photo">
+          <div class="author-name">Michael Chen</div>
+        </div>
+        <div class="author-card reveal">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Author 4" class="author-photo">
+          <div class="author-name">Priya Singh</div>
+        </div>
+      </div>
+      <button class="authors-arrow right" aria-label="Next author">&#8594;</button>
+    </div>
+  </section>
+  <!-- About Section End -->
+  <!-- Contact Section Start -->
+  <section class="contact-section reveal" id="contact">
+    <h2 class="contact-title">Contact Us</h2>
+    <p class="contact-desc">Have a question, suggestion, or just want to say hello? Fill out the form below and our team will get back to you soon!</p>
+    <form class="contact-form" autocomplete="off">
+      <div class="form-group">
+        <input type="text" class="form-input" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-input" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea class="form-input" name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+  </section>
+  <!-- Contact Section End -->
+  <!-- Footer Section Start -->
+  <footer class="footer-section reveal">
+    <div class="footer-content">
+      <div class="footer-brand">BrightSite</div>
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="#" aria-label="Twitter" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Facebook" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2025 BrightSite. All rights reserved.</div>
+  </footer>
+  <!-- Footer Section End -->
+  <script>
+    // Hero slider logic
+    const slides = Array.from(document.querySelectorAll('.slide'));
+    const dotsContainer = document.getElementById('sliderDots');
+    let current = 0;
+    function showSlide(idx) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === idx);
+      });
+      Array.from(dotsContainer.children).forEach((dot, i) => {
+        dot.classList.toggle('active', i === idx);
+      });
+      current = idx;
+    }
+    // Dots
+    slides.forEach((_, i) => {
+      const dot = document.createElement('div');
+      dot.className = 'slider-dot' + (i === 0 ? ' active' : '');
+      dot.addEventListener('click', () => showSlide(i));
+      dotsContainer.appendChild(dot);
+    });
+    // Arrows
+    document.getElementById('sliderPrev').onclick = () => showSlide((current - 1 + slides.length) % slides.length);
+    document.getElementById('sliderNext').onclick = () => showSlide((current + 1) % slides.length);
+    // Auto-slide
+    let autoSlide = setInterval(() => showSlide((current + 1) % slides.length), 6000);
+    // Pause on hover
+    document.getElementById('heroSlider').addEventListener('mouseenter', () => clearInterval(autoSlide));
+    document.getElementById('heroSlider').addEventListener('mouseleave', () => {
+      autoSlide = setInterval(() => showSlide((current + 1) % slides.length), 6000);
+    });
+    // Authors slider logic (corrected)
+    const authorsSlider = document.querySelector('.authors-slider');
+    const authorCards = document.querySelectorAll('.author-card');
+    const leftArrow = document.querySelector('.authors-arrow.left');
+    const rightArrow = document.querySelector('.authors-arrow.right');
+    let authorIndex = 0;
+
+    function updateAuthorsSlider() {
+      authorCards.forEach((card, idx) => {
+        if (idx === authorIndex) {
+          card.classList.add('active');
+          card.setAttribute('aria-hidden', 'false');
+          card.style.transform = 'translateX(0)';
+        } else if (idx < authorIndex) {
+          card.classList.remove('active');
+          card.setAttribute('aria-hidden', 'true');
+          card.style.transform = 'translateX(-100%)';
+        } else {
+          card.classList.remove('active');
+          card.setAttribute('aria-hidden', 'true');
+          card.style.transform = 'translateX(100%)';
+        }
+      });
+    }
+
+    leftArrow.addEventListener('click', () => {
+      authorIndex = (authorIndex - 1 + authorCards.length) % authorCards.length;
+      updateAuthorsSlider();
+    });
+    rightArrow.addEventListener('click', () => {
+      authorIndex = (authorIndex + 1) % authorCards.length;
+      updateAuthorsSlider();
+    });
+
+    updateAuthorsSlider();
+    // Light/Dark mode toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+    const darkVars = {
+      '--primary': '#22223b',
+      '--secondary': '#4a4e69',
+      '--accent': '#9a8c98',
+      '--bg': '#232136',
+      '--text': '#f8f8f2',
+      '--nav-bg': 'rgba(34,34,59,0.85)',
+      '--nav-blur': 'blur(12px)',
+      '--nav-border': 'rgba(74,78,105,0.3)'
+    };
+    const lightVars = {
+      '--primary': '#ffb347',
+      '--secondary': '#ff5e62',
+      '--accent': '#36d1c4',
+      '--bg': '#fffbe7',
+      '--text': '#222',
+      '--nav-bg': 'rgba(255,255,255,0.7)',
+      '--nav-blur': 'blur(12px)',
+      '--nav-border': 'rgba(255,255,255,0.3)'
+    };
+    function setTheme(mode) {
+      const vars = mode === 'dark' ? darkVars : lightVars;
+      Object.entries(vars).forEach(([k, v]) => root.style.setProperty(k, v));
+      document.body.classList.toggle('dark-mode', mode === 'dark');
+      themeToggle.innerHTML = mode === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+      localStorage.setItem('theme', mode);
+    }
+    function toggleTheme() {
+      const current = localStorage.getItem('theme') || 'light';
+      setTheme(current === 'light' ? 'dark' : 'light');
+    }
+    themeToggle.addEventListener('click', toggleTheme);
+    // On load
+    const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    setTheme(savedTheme);
+    // Scroll reveal animation
+    function revealOnScroll() {
+      const reveals = document.querySelectorAll('.reveal');
+      const windowHeight = window.innerHeight;
+      reveals.forEach(el => {
+        const top = el.getBoundingClientRect().top;
+        if (top < windowHeight * 0.92) {
+          el.classList.add('active');
+        } else {
+          el.classList.remove('active');
+        }
+      });
+    }
+    window.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('load', revealOnScroll);
+    // Responsive navbar toggle
+    const navToggle = document.getElementById('navToggle');
+    const mainNav = document.getElementById('mainNav');
+    navToggle.addEventListener('click', () => {
+      mainNav.classList.toggle('open');
+      navToggle.classList.toggle('open');
+      navToggle.setAttribute('aria-label', mainNav.classList.contains('open') ? 'Close navigation' : 'Open navigation');
+    });
+    // Close nav on link click (mobile)
+    mainNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 700) {
+          mainNav.classList.remove('open');
+          navToggle.classList.remove('open');
+          navToggle.setAttribute('aria-label', 'Open navigation');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
